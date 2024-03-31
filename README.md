@@ -46,5 +46,5 @@ The project is developed using the following technologies:
 
 1. Clone the repository:
 
-   ```bash
-   git clone <repository-url>
+   
+   git deployment link <[repository-url]( https://chireshtha.github.io/Grocery_Website_Static_Design/Navbar.html )>
