@@ -1,0 +1,74 @@
+body{
+    /* background: rgb(35,24,223);
+background: linear-gradient(90deg, rgba(35,24,223,1) 0%, rgba(156,6,213,0.5994047277113971) 42%, rgba(221,17,185,1) 100%); */
+/* background: rgb(24,161,223);
+background: linear-gradient(90deg, rgba(24,161,223,1) 0%, rgba(213,6,194,0.907527977011117) 42%, rgba(17,20,221,1) 100%); */
+/* background: rgb(24,161,223);
+background: linear-gradient(243deg, rgba(24,161,223,1) 0%, rgba(162,26,224,0.907527977011117) 42%, rgba(203,7,195,1) 45%, rgba(125,12,206,1) 68%, rgba(25,28,230,0.907527977011117) 100%); */
+/* background: rgb(24,161,223);
+background: linear-gradient(243deg, rgba(24,161,223,1) 0%, rgba(123,26,224,0.907527977011117) 42%, rgba(203,7,195,1) 45%, rgba(125,12,206,1) 68%, rgba(25,28,230,0.907527977011117) 100%); */
+/* background: rgb(24,161,223);
+background: linear-gradient(243deg, rgba(24,161,223,1) 0%, rgba(206,12,198,0.907527977011117) 42%, rgba(203,7,175,1) 45%, rgba(12,206,198,1) 68%, rgba(25,59,230,0.907527977011117) 100%); */
+background-attachment: fixed;
+margin: 0;
+padding: 0;
+font-family: 'poppins',sans-serif;
+background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(Images/gfnFBy.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+}
+#form
+{
+    width: 400px;
+    margin: 15vh auto 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px 25px;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+    color: rgb(204, 0, 153);
+}
+#form button{
+    background-color: rgb(204, 0, 153);
+    color: white;
+    border: 1px solid rgb(204, 0, 153);
+    padding: 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+label{
+    font-size: 20px;
+}
+.input-group input{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid rgb(35,24,223);
+}
+.input-group input:focus{
+    outline: 0;
+}
+.input-group .error
+{
+    color:rgb(242, 18, 18);
+    font-size: 16px;
+    margin-top: 5px;
+}
+.input-group.success input{
+    border-color: #0cc477;
+}
+.input-group.error input{
+    border-color: rgb(206, 67,67);
+}

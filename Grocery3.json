@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Eggs",
+        "image": "https://cdn.britannica.com/94/151894-050-F72A5317/Brown-eggs.jpg",
+        "price": 80
+    },
+    {
+        "name": "Nuts",
+        "image": "https://www.oprah.com/g/image-resizer?width=670&link=https://static.oprah.com/images/o2/201408/201408-BulkBuys-01-Nuts-949x1356.jpg",
+        "price": 70
+    },
+    {
+        "name": "Lean meats",
+        "image": "https://tastethefood.weebly.com/uploads/5/2/4/1/52410647/3171394_orig.jpg",
+        "price": 200
+    },
+    {
+        "name": "Fish",
+        "image": "https://th.bing.com/th/id/OIP.cxQa6inCLVHoHQQmuU0i-wHaFX?pid=ImgDet&rs=1",
+        "price": 400
+    }
+]

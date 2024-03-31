@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Milk",
+        "image": "https://i.pinimg.com/originals/55/14/a2/5514a2202982c7ca1819a3f32e499dc7.jpg",
+        "price": 40
+    },
+    {
+        "name": "Butter",
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/margarine-740-1486063727.jpg?resize=480:*",
+        "price": 50
+    },
+    {
+        "name": "Sour Cream",
+        "image": "https://th.bing.com/th/id/OIP.U6-xp9BfhKKJkkK755OeqgHaHa?pid=ImgDet&rs=1",
+        "price": 80
+    },
+    {
+        "name": "Sliced Cheese",
+        "image": "https://dgsfrozenfoods.co.za/wp-content/uploads/2018/06/sliced-cheese-copy-768x721.jpg",
+        "price": 150
+    },
+    {
+        "name": "Greek Yogurt",
+        "image": "https://th.bing.com/th/id/OIP.pD7H6uQ2KBW3Nh6zo8e3zgHaHa?pid=ImgDet&rs=1",
+        "price": 150
+    }
+]

@@ -1,0 +1,755 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+
+    /* background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(Images/abc.jpeg); */
+    /* background-image: url(Images/abc.jpeg); */
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh; */
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    top: 0;
+    /* position: fixed; */
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(Images/abc5.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: blue; */
+    /* background-color: white; */
+    /* background-color: rgb(47, 19, 227); */
+}
+
+.logo {
+    /* background-color: #007bb5; */
+    width: 7%;
+    font-size: 25px;
+    font-weight: 800;
+    text-shadow: 2px 2px 2px;
+    color: #e31f5a;
+    margin-left: 30px;
+}
+
+.logo img {
+    width: 40px;
+    margin-left: 35px;
+    /* padding: 0 0 0 30px; */
+    /* border-radius: 20px; */
+}
+
+.menu {
+    /* background-color: blue; */
+    width: 50%;
+    height: 100px;
+}
+
+.menu ul {
+    /* background-color: #007f00; */
+    width: 100%;
+    padding: 5px;
+    display: inline;
+    margin-left: 5%;
+}
+
+.menu ul li {
+    /* background-color: #007bb5; */
+    /* list-style-type: none; */
+    display: inline-block;
+    margin-top: 30px;
+    padding: 5px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 21px;
+    color: white;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+/* .menu ul li a.active {
+    background-color: #04AA6D;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+} */
+
+/* .menu ul li:hover{
+    background-color: #0d73cc;
+    padding: 10px 5px;
+    color: white;
+    border-radius: 5px;
+} */
+.menu ul li a:hover {
+    color: #e31f5a;
+}
+
+.sub-menu {
+    position: fixed;
+    margin-left: -27px;
+    background-color: rgb(6, 11, 138);
+    transition: 0.1s;
+    display: none;
+}
+
+.sub-menu ul li {
+    margin-top: -0.5px;
+}
+
+.menu ul li:hover .sub-menu {
+    display: block;
+    z-index: 1;
+}
+
+.menu ul li:hover .sub-menu ul li {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.sub-menu1 {
+    position: fixed;
+    margin-top: -50px;
+    margin-left: 160px;
+    background-color: rgb(6, 11, 138);
+    display: none;
+}
+
+.sub-menu1 ul li {
+    margin-top: -5.5px;
+}
+
+.sub-menu ul li:hover .sub-menu1 {
+    display: block;
+}
+
+.sub-menu ul li:hover .sub-menu1 ul li {
+    display: block;
+    padding: 10px;
+    text-align: left;
+}
+
+.searchbox {
+    /* background-color: #007f00; */
+    width: 20%;
+}
+
+.searchbox input {
+    width: 200px;
+    height: 35px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+/* 
+.searchbox input:hover {
+    border-color: solid white 15px;
+} */
+
+.searchbox a {
+    color: white;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.searchbox a:hover {
+    padding: 9px 0;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+}
+
+.login_button {
+    width: 10%;
+    margin-right: 20px;
+    /* background-color: #0ef; */
+}
+
+.login_button button {
+    margin-left: 20px;
+    margin-top: 25px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    box-shadow: black 3px 3px 3px 3px;
+    background-color: #016901;
+    border-radius: 30px;
+    border-color: #016901;
+}
+
+.login_button button:hover {
+    border-color: #fff;
+    border-width: 2px;
+}
+
+.login_button button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+.register_button {
+    width: 10%;
+    margin-right: 10px;
+}
+
+.register_button button {
+    margin-left: 20px;
+    margin-top: 25px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(246, 49, 14);
+    box-shadow: black 3px 3px 3px 3px;
+    border-radius: 30px;
+    border-color: rgb(196, 31, 2);
+    ;
+}
+
+.register_button button:hover {
+    border-color: #fff;
+    border-width: 2px;
+}
+
+.register_button button a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+}
+
+.menu-icon {
+    /* background-color: #007bb5; */
+    width: 5%;
+    height: 30%;
+    padding: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.menu-icon .menu-line {
+    width: 35px;
+    height: 5px;
+    background-color: #c92959;
+    margin-bottom: 5px;
+    margin-left: 30%;
+}
+
+.ver-menu1 {
+    margin-top: 30px;
+    display: inline-block;
+    margin-left: -33%;
+    background-color: rgb(6, 11, 138);
+    display: none;
+}
+
+.ver-menu1 ul {
+    margin: 10px 10px;
+}
+
+.ver-menu1 ul li {
+    list-style-type: none;
+    padding: 15px 15px;
+    text-align: left;
+}
+
+
+.ver-menu1 ul li a {
+    text-decoration: none;
+    font-size: 23px;
+    color: #fff;
+}
+
+.menu-icon:hover .ver-menu1 {
+    display: inline-block;
+}
+
+.ver-menu1 ul li a:hover {
+    color: #e31f5a;
+}
+
+/* .menu-icon{
+    cursor: pointer;
+    display: none; 
+} */
+/* 1600px*804px */
+/* @media all and (max-width:1600px){
+nav{
+    flex-direction: column;
+}
+nav li{
+   display:block;
+   padding: 10px 0; 
+}
+ul{
+    text-align: center;
+}
+} */
+
+.Infotext {
+    width: 100%;
+    height: 10%;
+}
+
+.Infotext marquee {
+    display: flex;
+    font-size: 25px;
+    color: #fff;
+    background-color: #e31f5a;
+    mask-mode:inherit;
+}
+
+.container {
+    margin-top: 20px;
+    width: 100%;
+    height: 860px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(Images/grocery10.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.containerLogin {
+    /* background-color: #007bb5; */
+    display: flexbox;
+    width: 40%;
+    height: 820px;
+}
+
+.containerLogin form {
+    margin: 100px auto;
+}
+
+.containerLogin .login {
+    display: flexbox;
+    text-align: center;
+    background: linear-gradient(#081b29, rgb(26, 197, 209), rgb(14, 170, 181), #081b29);
+    /* background: linear-gradient(#081b29, #0ef, #0ef, #081b29); */
+    /* background: linear-gradient(to top left, #33ccff 0%, #0066cc 100%);  */
+    /* background: linear-gradient(126deg, rgba(26,115,149,1) 0%, rgba(31,191,202,1) 47%, rgba(26,115,149,1) 59%, rgba(31,191,202,1) 100%); */
+    width: 600px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 250px;
+    padding: 40px 2px 10px 2px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px 10px black;
+}
+
+.containerLogin .login h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.containerLogin label {
+    width: 150px;
+    font-size: 23px;
+    display: inline-block;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+.containerLogin .input-group {
+    margin-bottom: 10px;
+}
+
+.containerLogin input {
+    width: 250px;
+    height: 35px;
+    border: solid blue 2px;
+    font-size: 20px;
+    /* border-right:hidden;
+    border-top:hidden;
+    border-left:hidden; */
+    border-radius: 5px;
+}
+
+.containerLogin input:hover {
+    border: none;
+}
+
+.submit_button button {
+    width: 140px;
+    height: 50px;
+    background: linear-gradient(#081b29, #0ef, #081b29, #0ef);
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-top: 8px;
+    margin-left: 150px;
+    cursor: pointer;
+    box-shadow: none;
+    border-style: none;
+}
+
+/* 
+.submit_button button:hover { 
+    background: linear-gradient(#081b29, #0ef, #081b29, #0ef);
+} */
+
+
+#Products {
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+
+.content_item1 {
+    width: 50%;
+    height: 640px;
+    display: flexbox;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.content_item1 .img1 {
+    width: 100%;
+    height: 700px;
+    display: flexbox;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(Images/PrimitiveDiet2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content_item2 {
+    width: 45%;
+    height: 640px;
+    display: flexbox;
+    box-shadow: 20px 25px 5px 5px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url(Images/grocery4.jpg);
+    rotate: 1deg;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content_item2 .welcome {
+    width: 100%;
+    height: 150px;
+    margin-top: -10px
+}
+
+.content_item2 .welcome h1 {
+    font-size: 30px;
+    font-weight: 500px;
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(224, 8, 76);
+}
+
+.content_item2 .head1 {
+    width: 100%;
+    height: 200px;
+}
+
+.content_item2 .head1 h3 {
+    font-size: 30px;
+    font-weight: 200px;
+    text-align: center;
+    padding: 10px;
+    color: #06066c;
+}
+
+.content_item2 .head1 img {
+    height: 75px;
+    width: 75px;
+    display: inline-flex;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
+
+.content_item2 .head2 {
+    width: 100%;
+    height: 170px;
+}
+
+.content_item2 .head2 h2 {
+    font-size: 35px;
+    font-weight: 500px;
+    text-align: center;
+    color: hsl(132, 95%, 16%);
+}
+
+.content_item2 .head3 {
+    width: 100%;
+    height: 150px;
+}
+
+.content_item2 .head3 h1 {
+    font-size: 30px;
+    font-weight: 200px;
+    margin-left: 40%;
+    margin-right: 38%;
+    color: white;
+    border-radius: 50px;
+    background: linear-gradient(#081b29, rgb(26, 197, 209), rgb(14, 170, 181), #081b29);
+}
+
+.content_item2 .head3 h1 a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.content_item2 .head3 h1 a marquee {
+    text-align: center;
+}
+
+.content_item2 .head3 h1 a:hover {
+    color: aqua;
+}
+
+.head1 {
+    margin-top: 50px;
+    width: 100%;
+    height: 50px;
+}
+
+.head1 h1 {
+    text-align: center;
+    color: #fff;
+    box-shadow: 5px 5px 5px 5px hsl(240, 93%, 27%);
+    background-color: #c92959;
+}
+
+#Prod {
+    width: 100%;
+    height: 750px;
+    display: flex;
+}
+
+.Prod_details {
+    /* background-color: #007bb5; */
+    width: 20%;
+    height: 600px;
+    display: flex;
+    margin-top: 50px;
+    background-color: #fff;
+}
+
+.fruits_details img {
+    height: 80%;
+    width: 100%;
+}
+
+button {
+    display: flexbox;
+    /* width: 12rem;
+    height: 3rem; */
+    margin: 20px 100px;
+    background-color: #e31f5a;
+    width: 180px;
+    height: 50px;
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px 5px;
+    border-color: #e31f5a;
+}
+
+button:hover {
+    border-color: #fff;
+    border-width: 3px;
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 23px;
+}
+
+.Veg_details img {
+    height: 80%;
+    width: 100%;
+}
+
+.Grains_details img {
+    height: 80%;
+    width: 100%;
+}
+
+.ProteinFood_details img {
+    height: 80%;
+    width: 100%;
+}
+
+.Dairy_details img {
+    height: 80%;
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 500px;
+    display: flexbox;
+    background-color: black;
+}
+
+.contents {
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.logo1 {
+    width: 20%;
+    height: 80%;
+    display: flexbox;
+    text-align: center;
+    margin-top: 140px;
+}
+
+.logo1 h1 {
+    font-size: 40px;
+    font-weight: 800;
+    text-shadow: 2px 2px 2px;
+    color: #e31f5a;
+}
+
+.logo1 img {
+    width: 80px;
+    height: 80px;
+    margin-left: 5px;
+    border-radius: 50px;
+}
+
+.logo1 p {
+    color: #fff;
+    font-weight: 30px;
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+.footheader {
+    width: 20%;
+    height: 80%;
+    display: flexbox;
+    text-align: center;
+    margin-top: 140px;
+}
+
+h3 {
+    margin-top: 30px;
+}
+
+h3 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+}
+
+p {
+    margin-top: 20px;
+}
+
+p a {
+    color: #fff;
+    opacity: 0.5;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footheader1 {
+    width: 20%;
+    height: 80%;
+    display: flexbox;
+    text-align: center;
+    margin-top: 140px;
+}
+
+.footheader2 {
+    width: 20%;
+    height: 80%;
+    display: flexbox;
+    text-align: center;
+    margin-top: 140px;
+}
+
+.footheader3 {
+    width: 20%;
+    height: 80%;
+    display: flexbox;
+    text-align: center;
+    margin-top: 140px;
+}
+
+.footheader3 a {
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.fa {
+    padding: 10px 5px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: hsl(221, 98%, 35%);
+    color: #fff;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: #fff;
+}
+
+.fa-instagram {
+    background: linear-gradient(135deg, rgba(0, 38, 150, 1) 0%, rgba(130, 0, 143, 1) 35%, rgba(192, 0, 122, 1) 51%, rgba(234, 12, 95, 1) 58%, rgba(255, 83, 65, 1) 69%, rgba(255, 136, 32, 1) 76%, rgba(246, 186, 0, 1) 100%);
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.footer p {
+    text-align: center;
+    padding: 50px;
+    margin-top: 80px;
+}
+
+.error {
+    font-size: 18px;
+    color: red;
+    margin-left: 80px;
+}
+
+.input-group.error input {
+    border-color: rgb(206, 67, 67);
+    border-width: 3px;
+}
+
+.input-group.success input {
+    border-color: #007f00;
+    border-width: 3px;
+}

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Website</title>
+    <link rel="stylesheet" href="Navbar.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <h1>Cherry</h1>
+            <img src="Images/Cherry.jfif" alt="Image loading...">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a class="active" href="#Home"> Home </a></li>
+                <li><a href="#">Products</a>
+                    <div class="sub-menu">
+                        <ul>
+                            <li><a href="#">Fruits</a>
+                                <div class="sub-menu1">
+                                    <ul>
+                                        <li><a href="#">Apple</a></li>
+                                        <li><a href="#">Orange</a></li>
+                                        <li><a href="#">Banana</a></li>
+                                        <li><a href="#">Mango</a></li>
+                                        <li><a href="#">graphs</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li><a href="#">Vegetables</a>
+                                <div class="sub-menu1">
+                                    <ul>
+                                        <li><a href="#">Dark Green Vegetables</a></li>
+                                        <li><a href="#">Red Vegetables</a></li>
+                                        <li><a href="#">Green Vegetables</a></li>
+                                        <li><a href="#">Beans and Peas</a></li>
+                                        <li><a href="#">Starchy Vegetables</a></li>
+                                        <li><a href="#">Other Vegetables</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">Grains</a>
+                                <div class="sub-menu1">
+                                    <ul>
+                                        <li><a href="#">Whole Grains</a></li>
+                                        <li><a href="#">Refined Grains</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">Protein Food</a>
+                                <div class="sub-menu1">
+                                    <ul>
+                                        <li><a href="#">Seafood</a></li>
+                                        <li><a href="#">Meat</a></li>
+                                        <li><a href="#">Poultry</a></li>
+                                        <li><a href="#">Eggs</a></li>
+                                        <li><a href="#">Nuts</a></li>
+                                        <li><a href="#">Seeds</a></li>
+                                        <li><a href="#">Soy</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">Dairy</a>
+                                <div class="sub-menu1">
+                                    <ul>
+                                        <li><a href="#">Milk</a></li>
+                                        <li><a href="#">Yogurt</a></li>
+                                        <li><a href="#">Cheese</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="Gallery.html" target="_blank">Gallery</a></li>
+                <li><a href="#">Service</a>
+                    <div class="sub-menu">
+                        <ul>
+                            <li><a href="#">Fresh Produce</a></li>
+                            <li><a href="#">Fresh Meat</a></li>
+                            <li><a href="#">Dairy</a></li>
+                            <li><a href="#">Deli Items</a></li>
+                            <li><a href="#">Backed Goods</a></li>
+                            <li><a href="#">Similar Foodstuffs</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li><a href="News.html" target="_blank">News</a></li>
+                <li><a href="contact.html" target="_blank">Contact</a></li>
+                <li><a href="Excercise_1.html" target="_blank">About Us</a></li>
+            </ul>
+        </div>
+        <div class="searchbox">
+            <input type="text" name="search" id="search" placeholder="Search">
+            <a href="https://www.google.com" target="_blank"><i class="fa fa-search"></i></a>
+        </div>
+        <div class="login_button">
+            <button type="submit"><a href="formBootstrap.html" target="_blank">Login</a></button>
+        </div>
+        <div class="register_button">
+            <button type="submit"><a href="Register.html" target="_blank">Register</a></button>
+        </div>
+
+        <div class="menu-icon">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="ver-menu1">
+                <ul>
+                    <li><a href="formBootstrap.html" target="_blank">Sign In</a></li>
+                    <li><a href="BootstrapRegform.html" target="_blank">Register</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        </div>
+    </nav>
+    <div class="Infotext">
+        <marquee behavior="scrolling" direction="left">
+            This website under maintanence please check after some time This website under maintanence please check
+            after some time
+        </marquee>
+    </div>
+    <section id="Home">
+        <div class="container">
+            <div class="containerLogin">
+                <form action="" id="form" method="post">
+                    <div class="login">
+                        <h1>Login Here</h1>
+                        <div class="input-group">
+                            <label for="username">User Name </label>
+                            <input type="text" name="username" id="username">
+                            <div class="error"></div>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password">
+                            <div class="error"></div>
+                        </div>
+
+                        <div class="submit_button">
+                            <button type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="Products">
+
+        <div class="content_item1">
+            <div class="img1">
+
+            </div>
+        </div>
+
+        <div class="content_item2">
+            <div class="welcome">
+                <h1>
+                    <marquee behavior="scrolling" direction="right">WELCOME TO OUR WEBSITE</marquee>
+                </h1>
+            </div>
+            <div class="head1">
+                <h3><img src="Images/tenor2.gif" alt="Smile"> Get the best and fresh groceries</h3>
+                <h3>Delivered!</h3>
+            </div>
+            <div class="head2">
+                <h2>100% Natural With Quality</h2>
+            </div>
+            <div class="head3">
+                <h1><a href="#">
+                        <marquee behavior="" direction="down">Shop Now</marquee>
+                    </a></h1>
+            </div>
+        </div>
+    </section>
+    <div class="head1">
+        <h1>GROCERY MARKET</h1>
+    </div>
+    <section id="Prod">
+        <div class="Prod_details">
+            <div class="fruits_details">
+                <img src="Images/Group2.jpg" alt="loading">
+                <button><a href="GroceryApi.html" target="_blank">Fruits</a></button>
+            </div>
+            <div class="Veg_details">
+                <img src="Images/Group3.jfif" alt="loading">
+                <button><a href="GroceryApi_Veg.html" target="_blank">Vegetables</a></button>
+            </div>
+            <div class="Grains_details">
+                <img src="Images/Group4.jfif" alt="loading">
+                <button><a href="GroceryApi_Grains.html" target="_blank">Grains</a></button>
+            </div>
+            <div class="ProteinFood_details">
+                <img src="Images/Group5.jfif" alt="loading">
+                <button><a href="GroceryApi_Protein.html" target="_blank">Protein Food</a></button>
+            </div>
+            <div class="Dairy_details">
+                <img src="Images/Group7.jfif" alt="loading">
+                <button><a href="GroceryApi_Dairy.html" target="_blank">Dairy</a></button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="contents">
+            <div class="logo1">
+                <h1>Cherry</h1>
+                <img src="Images/Cherry.jfif" alt="Image loading...">
+                <p>&copy;2023</p>
+            </div>
+            <div class="footheader">
+                <h3><a href="#">Customers</a></h3>
+                <p><a href="#">buyer</a></p>
+                <p><a href="#">Supplier</a></p>
+            </div>
+            <div class="footheader1">
+                <h3><a href="#">Company</a></h3>
+                <p><a href="Excercise_1.html" target="_blank">About Us</a></p>
+                <p><a href="contact.html" target="_blank">Contact Us</a></p>
+            </div>
+            <div class="footheader2">
+                <h3><a href="#" target="_blank">Further Information</a></h3>
+                <p><a href="#">Terms & Condition</a></p>
+                <p><a href="#">Privacy Policy</a></p>
+            </div>
+            <div class="footheader3">
+                <h3><a href="#">Follow Us</a></h3>
+                <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank"></a>
+                <a href="https://www.twitter.com" class="fa fa-twitter" target="_blank"></a>
+                <a href="https://www.instagram.com" class="fa fa-instagram" target="_blank"></a>
+                <a href="https://www.linkedin.com" class="fa fa-linkedin" target="_blank"></a>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Designed by <span>&copy; Chireshtha</span></p>
+        </div>
+    </footer>
+    <script src="Navbar.js"></script>
+</body>
+
+</html>

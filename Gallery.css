@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: linear-gradient(rgba(3, 4, 88, 0.7), rgba(6, 46, 106, 0.7)), url(Images/fruitsback.jpg);
+    background-size:cover;
+    filter: saturate(2);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    /* background: linear-gradient(90deg, rgba(236,31,155,1) 25%, rgba(255,0,202,1) 35%, rgba(240,65,213,1) 40%, rgba(19,77,245,1) 90%); */
+}
+section{
+    padding: 20px;
+    width: 1480px;
+    margin: 40px auto;
+}
+section ul{
+    display: flex;
+    margin-bottom: 10px;
+}
+section ul li{
+    list-style: none;
+    background: #eee;
+    padding: 15px 30px;
+    margin: 10px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+section ul li.active{
+    background-color: #03a9f4;
+    color: #fff;
+}
+.product{
+    display: flex;
+    flex-wrap:wrap;
+}
+.product .itembox{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+}
+.product .itembox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 155px;
+    transition: 0.3s ease;
+}
+.product .itembox img:hover{
+    filter: brightness(120%); 
+    /* filter: grayscale(10%); */
+    width: 115%;
+    height: 115%;
+    border-radius: 5px;   
+}
+.product .itembox:hover{
+    margin-top: 10px;
+    margin-left: 10px;
+}

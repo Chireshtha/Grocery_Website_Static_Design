@@ -1,0 +1,53 @@
+[
+    {
+        "name": "Tomato",
+        "image": "https://cdn.shopify.com/s/files/1/1380/2059/products/Cherry-Tomato.jpg?v=1480318422",
+        "price": 50
+    },
+    {
+        "name": "Onion",
+        "image": "https://th.bing.com/th/id/R.c1fec03327898cc5210f3ed9dcc061a6?rik=WBOVrVQv7M4hMg&riu=http%3a%2f%2f1.bp.blogspot.com%2f-vR1bLGlb-Yc%2fTmhWYyIPlII%2fAAAAAAAAAHM%2fVO1AcunADug%2fs1600%2fOnions-707330.jpg&ehk=6JNU%2bN2lIAwSsY56xsIuXtEg9TKaWnxrP5mfoM9BjAQ%3d&risl=&pid=ImgRaw&r=0",
+        "price": 30
+    },
+    {
+        "name": "Broccoli",
+        "image": "https://th.bing.com/th/id/OIP.zFQRthZFZxPI36Ao0BKdKAHaHi?pid=ImgDet&rs=1",
+        "price": 50
+    },
+    {
+        "name": "Bitter gourd",
+        "image": "https://naturebring.com/wp-content/uploads/2017/02/Bitter-Gourd-nb-02-1024x768.jpg",
+        "price": 40
+    },
+    {
+        "name": "Carrot",
+        "image": "https://th.bing.com/th/id/OIP.NQoblU6aVDk4w-pjm_mqRgHaGD?pid=ImgDet&rs=1",
+        "price": 50
+    },
+    {
+        "name": "Potato",
+        "image": "https://th.bing.com/th/id/OIP.zB7AATBDNYVwv3rUfXbYcwHaE8?pid=ImgDet&rs=1",
+        "price": 40
+    },
+    {
+        "name": "Capsicum",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Capsicum_annuum_fruits_IMGP0122.jpg",
+        "price": 25
+    },
+    {
+        "name": "Brinjal",
+        "image": "https://th.bing.com/th/id/OIP.R2LSxF9n2u9VjpZRn9YjMgHaGG?pid=ImgDet&rs=1",
+        "price": 35
+    },
+    {
+        "name": "Cauliflower",
+        "image": "https://th.bing.com/th/id/OIP.Yreh1x7zzn1u3i6gDucD3wHaE-?pid=ImgDet&rs=1",
+        "price": 20
+    },
+    {
+        "name": "Beetroot",
+        "image": "https://th.bing.com/th/id/OIP.orTWDkgY0-FFuGP1J8P6oQHaHa?pid=ImgDet&rs=1",
+        "price": 30
+    }
+    
+]

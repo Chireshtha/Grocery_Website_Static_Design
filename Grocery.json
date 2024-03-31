@@ -1,0 +1,53 @@
+[
+        {
+            "name": "Apple",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/265px-Red_Apple.jpg",
+            "price": 200
+        },
+        {
+            "name": "Banana",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Bananas_white_background_DS.jpg/320px-Bananas_white_background_DS.jpg",
+            "price": 45
+        },
+        {
+            "name": "Grapes",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Table_grapes_on_white.jpg/320px-Table_grapes_on_white.jpg",
+            "price": 80
+        },
+        {
+            "name": "Pineapple",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Pineapple_and_cross_section.jpg/286px-Pineapple_and_cross_section.jpg",
+            "price": 200
+        },
+        {
+            "name": "Orange",
+            "image": "https://thumbs.dreamstime.com/z/orange-white-background-120454581.jpg?w=768",
+            "price": 140
+        },
+        {
+            "name": "Strawberry",
+            "image": "https://thumbs.dreamstime.com/z/fresh-strawberries-isolated-white-background-studio-macro-31110669.jpg?w=2048",
+            "price": 350
+        },
+        {
+            "name": "Cherry",
+            "image": "https://m.media-amazon.com/images/I/61LdYn3Ij0L.jpg",
+            "price": 360
+        },
+        {
+            "name": "Raspberry",
+            "image": "https://thumbs.dreamstime.com/z/two-ripe-beautiful-raspberry-berry-white-background-close-up-two-ripe-beautiful-raspberry-berry-white-background-152060462.jpg?w=992",
+            "price": 300
+        },
+        {
+            "name": "Lime",
+            "image": "https://thumbs.dreamstime.com/z/two-lime-fruit-isolate-white-two-lime-fruit-isolate-white-background-99472212.jpg?w=768",
+            "price": 30
+        },
+        {
+            "name": "Blueberry",
+            "image": "https://rukminim2.flixcart.com/image/416/416/k6xxua80/plant-sapling/z/h/f/rare-hybrid-bush-blueberry-fruit-live-plant-1-m-technologies-original-imafpat8dzsvgtw5.jpeg?q=70",
+            "price": 250
+        }
+        
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Rice",
+        "image": "https://th.bing.com/th/id/OIP.eFMlL1C_ZpVEwMlJIHr3zwHaFJ?pid=ImgDet&w=500&h=348&rs=1",
+        "price": 200
+    },
+    {
+        "name": "Corn",
+        "image": "https://www.thespruceeats.com/thmb/aWE7DDoYFx70G81pm1z6KaxJ_i8=/2000x1333/filters:fill(auto,1)/corn_fresh-589ea09f3df78c47588d10be.jpg",
+        "price": 20
+    },
+    {
+        "name": "Millet",
+        "image": "https://th.bing.com/th/id/OIP.ig6JYywRB0bCbnRy3g6A6QHaLI?pid=ImgDet&rs=1",
+        "price": 80
+    },
+    {
+        "name": "Buckwheat",
+        "image": "https://i0.wp.com/www.valuefood.info/wp-content/uploads/2014/02/health-benefits-of-buckwheat.jpg?fit=1002%2C508",
+        "price": 100
+    },
+    {
+        "name": "Teff",
+        "image": "https://th.bing.com/th/id/OIP.tIv73J8rxeDmrxUpIYf6JgHaE7?pid=ImgDet&rs=1",
+        "price": 50
+    },
+    {
+        "name": "Spelt",
+        "image": "https://th.bing.com/th/id/OIP.BLvvccjy-ko84kioCAZ1QAHaD4?pid=ImgDet&rs=1",
+        "price": 30
+    }
+]

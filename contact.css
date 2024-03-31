@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 1400px;
+}
+
+.container {
+    display: grid;
+}
+
+.header {
+    display: flex;
+    background-color: rgb(5, 5, 111);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: #fff;
+}
+
+.header h1 {
+    margin: 25px auto;
+}
+
+.boxes {
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    height: 450px;
+    background-color: rgb(14, 167, 244);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.box1 {
+    width: 20%;
+    height: 350px;
+    background-color: #fff;
+    margin-left: 110px;
+    margin-right: 50px;
+    margin-top: 50px;
+    display: flexbox;
+}
+
+.boxes .box1 i {
+    font-size: 100px;
+    color: rgb(4, 181, 240);
+    margin-top: 30px;
+    margin-left: 40%;
+    /* margin: 10px auto; */
+}
+
+.boxes .box1 h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.boxes .box1 p {
+    font-size: 20px;
+    margin-top: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+
+.box2 {
+    width: 20%;
+    height: 350px;
+    background-color: #fff;
+    margin-right: 50px;
+    margin-top: 50px;
+    display: flexbox;
+}
+
+.boxes .box2 i {
+    font-size: 100px;
+    color: rgb(4, 181, 240);
+    margin-top: 30px;
+    margin-left: 40%;
+}
+
+.boxes .box2 h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.boxes .box2 p {
+    font-size: 20px;
+    margin-top: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+
+.box3 {
+    width: 20%;
+    height: 350px;
+    background-color: #fff;
+    margin-right: 50px;
+    margin-top: 50px;
+    display: flexbox;
+}
+
+.boxes .box3 i {
+    font-size: 100px;
+    color: rgb(4, 181, 240);
+    margin-top: 30px;
+    margin-left: 35%;
+}
+
+.boxes .box3 h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.boxes .box3 p {
+    font-size: 20px;
+    margin-top: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+
+.box4 {
+    width: 20%;
+    height: 350px;
+    background-color: #fff;
+    margin-right: 50px;
+    margin-top: 50px;
+    display: flexbox;
+}
+
+.boxes .box4 i {
+    font-size: 100px;
+    color: rgb(4, 181, 240);
+    margin-top: 30px;
+    margin-left: 40%;
+}
+
+.boxes .box4 h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.boxes .box4 p {
+    font-size: 20px;
+    margin-top: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+
+.big-box {
+    width: 100%;
+    height: 900px;
+    background-color: rgb(14, 167, 244);
+    display: flex;
+}
+
+.big-box1 {
+    background-attachment: fixed;
+    width: 50%;
+    height: 900px;
+    display: flexbox;
+}
+
+.big-box1 h1 {
+    text-align: center;
+    color: #fff;
+    margin-top: 30px;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.big-box1 h2 {
+    margin-top: 30px;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.big-box1 p {
+    margin-top: 30px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.gold img {
+    margin-top: 30px;
+    width: 55%;
+    height: 105%;
+    margin-left: 25%;
+    border-radius: 500px;
+}
+
+.contacts {
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+    /* background-color: #fff; */
+    margin-left: 32%;
+    margin-right: 32%;
+}
+
+.contacts a {
+    text-decoration: none;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: hsl(221, 98%, 35%);
+    color: #fff;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: #fff;
+}
+
+.fa-instagram {
+    background: linear-gradient(135deg, rgba(0, 38, 150, 1) 0%, rgba(130, 0, 143, 1) 35%, rgba(192, 0, 122, 1) 51%, rgba(234, 12, 95, 1) 58%, rgba(255, 83, 65, 1) 69%, rgba(255, 136, 32, 1) 76%, rgba(246, 186, 0, 1) 100%);
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.big-box2 {
+    width: 50%;
+    height: 900px;
+    display: flex;
+}
+
+form {
+    width: 100%;
+    height: 40%;
+    display: flexbox;
+    margin: 10% auto;
+    font-size: 23px;
+}
+
+form .submit_form {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    padding: 20px;
+}
+
+label {
+    color: #fff;
+}
+
+.input-group input {
+    width: 500px;
+    height: 25px;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 10px;
+    background: transparent;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #fff;
+}
+
+::placeholder {
+    color: #fff;
+    opacity: 0.5;
+}
+
+.input-group textarea {
+    width: 500px;
+    margin-top: 20px;
+    background: transparent;
+    font-size: 20px;
+    border-color: #fff;
+    outline: none;
+    color: #fff;
+}
+
+button {
+    width: 500px;
+    height: 50px;
+    background-color: #fff;
+    font-size: 20px;
+    color: black;
+    border: none;
+}
+button:hover{
+    border-color: #fff;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    height: 500px;
+    display: flexbox;
+    background-color: black;
+}
+.contents{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.logo1{
+    width: 20%;
+    height: 80%;
+    display: flexbox;
+    text-align: center;
+    margin-top: 140px;
+}
+.logo1 h1{
+    font-size: 40px;
+    font-weight: 800;
+    text-shadow: 2px 2px 2px;
+    color: #e31f5a;
+}
+.logo1 img {
+    width: 80px;
+    height: 80px;
+    margin-left: 5px;
+    border-radius: 50px;
+}
+.logo1 p{
+    color: #fff;
+    font-weight: 30px;
+    font-size: 20px;
+    opacity: 0.5;
+}
+.footheader{
+    width: 20%;
+    height: 80%;
+    display: flexbox;
+    text-align: center;
+    margin-top: 140px;
+}
+h3{
+    margin-top: 30px;
+}
+h3 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+}
+p{
+    margin-top: 20px;
+}
+p a{
+    color: #fff;
+    opacity: 0.5;
+    font-size: 20px;
+    text-decoration: none;
+}
+.footheader1{
+    width: 20%;
+    height: 80%;
+    display: flexbox;
+    text-align: center;
+    margin-top: 140px;
+}
+.footheader2{
+    width: 20%;
+    height: 80%;
+    display: flexbox;
+    text-align: center;
+    margin-top: 140px;
+}
+.footheader3{
+    width: 20%;
+    height: 80%;
+    display: flexbox;
+    text-align: center;
+    margin-top: 140px;
+}
+.footheader3 a {
+    margin-top: 20px;
+    text-decoration: none;
+}

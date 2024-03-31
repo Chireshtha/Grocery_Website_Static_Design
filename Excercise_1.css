@@ -1,0 +1,65 @@
+*{
+    font-family: sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
+
+body {
+    background-image: url(Images/vec1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head1{
+    color: blue;
+}
+.head1 h1{
+    font-size: 2rem;
+}
+.head1 p{
+font-size: 1rem;
+}
+.details{
+    color: blue; 
+    font-size: large;
+}
+.contact a{
+    text-decoration: none; 
+    font-size: 22px;
+}
+.contact button{
+    width: 200px; 
+    height: 50px; 
+    background-color: blue; 
+    border-radius: 10px;color: aliceblue; 
+    font-size: 22px;
+}
+.contact1 a{
+    text-decoration: none; 
+    font-size: 22px;
+}
+.contact1 button{
+    width: 200px; 
+    height: 50px; 
+    background-color: blue; 
+    border-radius: 10px;color: aliceblue; 
+    font-size: 22px;
+}
+.job a{
+    text-decoration: none; 
+    font-size: 22px;
+}
+.job button{
+    width: 200px; 
+    height: 50px; 
+    background-color: blue; 
+    border-radius: 10px;color: aliceblue; 
+    font-size: 22px;
+}
+.register button{
+    width: 200px; 
+    height: 50px; 
+    background-color: blue; 
+    border-radius: 10px;
+    color: aliceblue; 
+    font-size: 22px;
+}

@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; 
+    /* background-repeat: no-repeat; */
+    /* max-height: 100vh;
+    background-size: cover;
+    box-sizing: border-box;  */
+    overflow: hidden; 
+}
+body{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(Images/abcd2.jpg);    
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 100vh;
+}
+.container .card
+{
+    border-radius: 30px;
+    margin: 0;
+    position: relative;
+    background-color: white;
+}
+.bg-primary
+{
+   /* margin-left: 32%; */
+   border-radius: 8px;
+   text-align: center;
+   color: white;
+}
+.bg-primary a{
+    color: white;
+    text-decoration: none;
+}
+.bg-primary a:hover{
+    color: white;  
+}
+.input-group img
+{
+    width: 100px;
+    height: 100px;
+    margin: 25px auto 25px auto;
+    /* margin-left: 140px;
+    margin-bottom: 25px; */
+}
+
+.col-auto .btn-success
+{
+    float: left;
+    margin-left: 60px;
+    color: aliceblue;
+    border-radius: 10px;
+    width: 100px;
+} 
+
+.col-auto .btn-danger
+{
+    float: right;
+    margin-right:60px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+.form-check
+{
+    margin-left: 30px;
+    
+}
+.text-right
+{
+    float: right;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+.text-right a{
+    text-decoration: none;
+    color: black;
+}
+.text-right a :active::after
+{
+    color: grey;
+}
+.error
+{
+    color:rgb(242, 18, 18);
+    font-size: 16px;
+    margin-top: 5px;
+}
+.form-control.success input{
+    border-color: #2ecc71;
+    color: #2ecc71;
+}
+.form-control.error input{
+    border-color: red;
+    color: red;
+}
