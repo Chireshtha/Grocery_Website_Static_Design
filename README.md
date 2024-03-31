@@ -7,7 +7,7 @@ Welcome to Grocery Website! This application allows you to explore information a
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Development Tool](#development-tool)
-- [How to Run](#how-to-run)
+- [Deployment Link](#deployment-link)
 
 ## About
 
@@ -42,9 +42,8 @@ The project is developed using the following technologies:
 - Visual Studio Code: The project is developed and maintained using Visual Studio Code, a lightweight yet powerful 
   source code editor.
 
-## How to Run
+## Deployment Link
 
-1. Clone the repository:
+You can view my project
 
-   
    git deployment link <[repository-url]( https://chireshtha.github.io/Grocery_Website_Static_Design/Navbar.html )>
