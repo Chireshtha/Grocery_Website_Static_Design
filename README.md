@@ -44,6 +44,6 @@ The project is developed using the following technologies:
 
 ## Deployment Link
 
-You can view my project
+**You can view the project visual**
 
    git deployment link <[repository-url]( https://chireshtha.github.io/Grocery_Website_Static_Design/Navbar.html )>
